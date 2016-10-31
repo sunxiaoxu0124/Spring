@@ -1,4 +1,4 @@
-package entity;
+package com.demo.entity;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
