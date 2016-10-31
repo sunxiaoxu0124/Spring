@@ -17,14 +17,7 @@ http://www.springframework.org/schema/context/spring-context.xsd
 		<property name="limit" value="20" />
 	</bean>
 
-	<bean id="reward1" class="entity.Reward">
-		<property name="rewardId" value="R10312" />
-		<property name="rewardName" value="零花钱2" />
-		<property name="number" value="100" />
-		<property name="limit" value="20" />
-	</bean>
-
-	<bean id="activity" class="entity.Activity" autowire="byName">
+	<bean id="activity" class="entity.Activity" autowire="byType">
 		<property name="activityId" value="A1031" />
 	</bean>
 
