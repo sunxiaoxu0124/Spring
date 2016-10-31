@@ -1,11 +1,14 @@
 package com.demo.entity;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Reward {
 
-	private String rewardId;
-	private String rewardName;
-	private int number;
-	private int limit;
+	private String rewardId = "";
+	private String rewardName = "";
+	private int number = 0;
+	private int limit = 0;
 
 	public String getRewardId() {
 		return rewardId;
