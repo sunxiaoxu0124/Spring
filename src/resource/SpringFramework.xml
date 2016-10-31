@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd 
+">
+
+	<context:annotation-config/>
+	
+	<bean id="reward" class="entity.Reward">
+		<property name="rewardId" value="R1031" />
+		<property name="rewardName" value="零花钱" />
+		<property name="number" value="100" />
+		<property name="limit" value="20" />
+	</bean>
+
+	<bean id="reward1" class="entity.Reward">
+		<property name="rewardId" value="R10312" />
+		<property name="rewardName" value="零花钱2" />
+		<property name="number" value="100" />
+		<property name="limit" value="20" />
+	</bean>
+
+	<bean id="activity" class="entity.Activity" autowire="byName">
+		<property name="activityId" value="A1031" />
+	</bean>
+
+</beans>
