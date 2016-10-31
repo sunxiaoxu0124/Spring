@@ -29,7 +29,7 @@
 	<classpathentry kind="lib" path="E:/wanda/Sunxx/libs/spring-framework-3.2.4.RELEASE/libs/spring-instrument-tomcat-3.2.4.RELEASE.jar"/>
 	<classpathentry kind="lib" path="E:/wanda/Sunxx/libs/spring-framework-3.2.4.RELEASE/libs/spring-instrument-tomcat-3.2.4.RELEASE-javadoc.jar"/>
 	<classpathentry kind="lib" path="E:/wanda/Sunxx/libs/spring-framework-3.2.4.RELEASE/libs/spring-instrument-tomcat-3.2.4.RELEASE-sources.jar"/>
-	<classpathentry kind="lib" path="E:/wanda/Sunxx/libs/spring-framework-3.2.4.RELEASE/libs/spring-jdbc-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/wanda/Sunxx/libs/spring-framework-3.2.4.RELEASE/libs/spring-jdbc-3.2.4.RELEASE.jar" sourcepath="E:/wanda/Sunxx/libs/spring-framework-3.2.4.RELEASE/libs/spring-jdbc-3.2.4.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="E:/wanda/Sunxx/libs/spring-framework-3.2.4.RELEASE/libs/spring-jdbc-3.2.4.RELEASE-javadoc.jar"/>
 	<classpathentry kind="lib" path="E:/wanda/Sunxx/libs/spring-framework-3.2.4.RELEASE/libs/spring-jdbc-3.2.4.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="E:/wanda/Sunxx/libs/spring-framework-3.2.4.RELEASE/libs/spring-jms-3.2.4.RELEASE.jar"/>
