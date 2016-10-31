@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class Activity {
 
 	private String activityId;
+	@Autowired
 	private Reward reward;
 
 	public String getActivityId() {

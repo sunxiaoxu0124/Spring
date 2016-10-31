@@ -17,7 +17,7 @@ http://www.springframework.org/schema/context/spring-context.xsd
 		<property name="limit" value="20" />
 	</bean>
 
-	<bean id="activity" class="entity.Activity" autowire="byType">
+	<bean id="activity" class="entity.Activity">
 		<property name="activityId" value="A1031" />
 	</bean>
 
